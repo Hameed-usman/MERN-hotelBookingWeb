@@ -7,7 +7,7 @@ const Sidebar = () => {
     const sidebarLink = [
         {name: "Dashboard", path: "/owner", icon: assets.dashboardIcon},
         {name: "Add Room", path: "/owner/add-room", icon: assets.dashboardIcon},
-        {name: "All Lists", path: "/owner/list-room", icon: assets.dashboardIcon},
+        {name: "All List", path: "/owner/list-room", icon: assets.dashboardIcon},
     ]
     
   return (

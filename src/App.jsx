@@ -21,7 +21,7 @@ const App = () => {
 {false &&      <HotelReg />}      <div>  
            <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/rooms' element={<AllRooms />} />
+            <Route path='/room' element={<AllRooms />} />
             {/* <Route path='/rooms/:id' element={<RoomDetails />} /> */}
             <Route path='/room/:id'  element={<RoomDetails />} />
             <Route path='my-bookings' element={<MyBookings/>} />
