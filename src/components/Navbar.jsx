@@ -62,7 +62,7 @@ const Navbar = () => {
                         </a>
                     ))}
                     <button onClick={() => navigate('/owner')} className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? 'text-black' : 'text-white'} transition-all`}>
-Dashboard        + Owner            
+Dashboard              
  </button>
                 </div>
 
